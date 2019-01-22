@@ -1,6 +1,5 @@
-def square_array(aryname)
-aryname.each  {|x| x**2}
+def square_array(array)
+  square_array = []
+array.each {|x| square_array << x**2}
+square_array
 end
-
-numbers = [1 ,2, 3]
-square_array(numbers)
