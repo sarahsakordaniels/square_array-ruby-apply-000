@@ -1,4 +1,8 @@
+
+
+
 def square_array(array)
-array.each {|x| x*x;}
-square_array
+  squared = []
+  array.each { |x| squared << x ** 2 }
+  squared
 end
